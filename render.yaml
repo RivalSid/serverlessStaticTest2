@@ -3,6 +3,7 @@ services:
     name: anotherInstanceOfTheWebSite
     runtime: node
     plan: free
+    region: frankfurt
     repo: https://github.com/RivalSid/serverlessTest.git
     buildCommand: npm install
     startCommand: npm start
